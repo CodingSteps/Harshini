@@ -1,0 +1,93 @@
+#forum{
+	width:800px;
+	height: 1000px;
+	margin: auto;
+	background-color: rgba(239,58,115,0.75);
+	border-radius: 20px;
+}
+
+#tb1{
+	background-color: #fff3a0;
+	width: 80%;
+	border-radius:7px;
+	border: none;
+	height:30px;
+	margin-left:30px;
+	
+}
+
+#tb2{
+	background-color: #fff3a0;
+	width: 80%;
+	border-radius:7px;
+	border: none;
+	height:30px;
+	margin-left:30px;
+}
+
+body{
+	font-family:'Akaya Kanadaka', cursive;
+	background-image: linear-gradient(to left,rgba(169,201,255,0.5),rgba(255,187,236,0.5)), url(https://images4.alphacoders.com/699/699670.jpg);
+	height: 1000px;
+	margin: auto;
+
+}
+
+.text{
+	font-size: 30px;
+	color: white;
+	margin-left:30px;
+}
+
+#title{
+	font-size: 80px;
+	color: white;
+	text-align: center;
+}
+
+#Red{
+	font-size: 25px;
+	color: red;
+	margin-left:30px;
+}
+
+#Orange{
+	font-size: 25px;
+	color: orange;
+	margin-left:30px;
+}
+
+#Yellow{
+	font-size: 25px;
+	color: yellow;
+	margin-left:30px;
+}
+
+#Green{
+	font-size: 25px;
+	color: green;
+	margin-left:30px;
+}
+
+#Blue{
+	font-size: 25px;
+	color: blue;
+	margin-left:30px;
+}
+
+#Purple{
+	font-size: 25px;
+	color: purple;
+	margin-left:30px;
+}
+
+#icon{
+	color: rgba(255,255,255,0.1);
+	font-size: 200px;
+}
+
+#pos{
+	width:250px;
+	height: 100px;
+	margin: auto;
+}

@@ -1,0 +1,53 @@
+#top_pic{
+	height: 125px;
+	width: 200px;
+	border-radius: 30%;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#top{
+	background-color: papayawhip;
+	height: 180px;
+	width: 100%;
+}
+
+#top_elements{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.text{
+	font-size: 20px;
+	padding: 10px;
+	line-height: 40px;
+	text-align: justify;
+}
+
+#middle{
+	border-radius: 20%;
+	float: right;
+}
+
+#last_img{
+	float: left;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+#last{
+	border: solid 20px cadetblue;
+	border-radius: 30px;
+	background-color: papayawhip;
+}
+
+body{
+	margin: 0px;
+	background-color: #ffe1b2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#inside{
+	padding: 10px;
+}
