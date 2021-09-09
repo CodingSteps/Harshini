@@ -68,3 +68,35 @@ body{
 .s:hover{background-color: #e1f0f4;}
 
 /* Start */
+
+#title{
+	background-color: #ECADB5;
+	width: 80%;
+	height: 90px;
+	font-size: 70px;
+	text-align: center;
+	float: right;
+}
+
+#side_bar{
+	list-style-type: none;
+	float: left;
+	width: 17.38%;
+	height: 300px;
+	background-color: #91F67A;
+}
+
+.side{
+	font-size: 30px;
+	padding-top: 15px;
+	background-color: #91F67A;
+	border-bottom: 2px solid #89ea70;
+}
+
+#board{
+	background-color: #ECADB5;
+}
+
+.side:hover{
+	background-color: #89ea70;
+}
