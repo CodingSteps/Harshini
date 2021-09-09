@@ -1,0 +1,68 @@
+
+ul {
+	height: 100px;
+	background-color: #D4EBF2;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.text{
+	font-size: 30px;
+	color: #00A9BA;
+	margin-top: 20px;
+	padding : 10px 15px 15px 10px;
+
+	float: right;
+	border-radius: 30px;
+}
+
+.text:hover{
+	text-decoration: underline;
+	background-color: #ECADB5;
+	color: antiquewhite;
+}
+
+
+#logo{
+	float: left;
+	padding-top: 20px;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#slime{
+	margin-top: 0px;
+	width: 100%;
+	height: 647px;
+}
+
+#content{
+	display: none;
+}
+
+#dropdown{
+	position: relative;
+}
+
+#dropdown:hover #content{
+	display: block;
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	background-color: #D4EBF2;
+}
+
+
+.s{
+	text-decoration: none;
+	color: #00A9BA;
+	border-bottom: 2px solid powderblue;
+	display: block;
+	padding: 10px 20px 10px 20px;
+}
+
+.s:hover{background-color: #e1f0f4;}
