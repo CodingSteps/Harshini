@@ -81,9 +81,10 @@ body{
 #side_bar{
 	list-style-type: none;
 	float: left;
-	width: 17.38%;
-	height: 300px;
+	width: 20%;
+	height: 290px;
 	background-color: #91F67A;
+	padding-left: 0px;
 }
 
 .side{
@@ -91,6 +92,9 @@ body{
 	padding-top: 15px;
 	background-color: #91F67A;
 	border-bottom: 2px solid #89ea70;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
 }
 
 #board{
@@ -99,4 +103,22 @@ body{
 
 .side:hover{
 	background-color: #89ea70;
+}
+
+.items{
+	height: 200px;
+    width: 200px;
+    background-color: #00A9BA;
+    margin: auto;
+    float: right;
+    margin-right: 60%;
+    margin-top: 5%;
+    border-radius: 20%;
+    display: inline-block;
+}
+
+.description{
+	margin-left: 45%;
+	margin-top: 0px;
+	display: inline;
 }
