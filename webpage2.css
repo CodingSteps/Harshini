@@ -1,5 +1,5 @@
 
-ul {
+#n {
 	height: 100px;
 	background-color: #D4EBF2;
 	list-style-type: none;
@@ -75,11 +75,11 @@ body{
 	height: 90px;
 	font-size: 70px;
 	text-align: center;
-	float: right;
 }
 
 #side_bar{
 	list-style-type: none;
+	clear: both;
 	float: left;
 	width: 20%;
 	height: 290px;
