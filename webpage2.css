@@ -120,5 +120,5 @@ body{
 .description{
 	margin-left: 45%;
 	margin-top: 0px;
-	display: inline;
+	display: inline-block;
 }
