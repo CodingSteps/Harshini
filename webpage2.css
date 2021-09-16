@@ -68,14 +68,14 @@ body{
 .s:hover{background-color: #e1f0f4;}
 
 /* Start */
-
+/*
 #title{
 	background-color: #ECADB5;
 	width: 80%;
 	height: 90px;
 	font-size: 70px;
 	text-align: center;
-}
+}*/
 
 #side_bar{
 	list-style-type: none;
@@ -94,9 +94,9 @@ body{
 	border-bottom: 2px solid #89ea70;
 	padding-left: 10px;
 	padding-right: 10px;
-	text-align: center;
+	text-align: center; 
 }
-
+/*
 #board{
 	background-color: #ECADB5;
 }
@@ -122,3 +122,5 @@ body{
 	margin-top: 0px;
 	display: inline-block;
 }
+
+*/
