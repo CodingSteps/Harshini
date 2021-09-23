@@ -126,6 +126,8 @@ body{
     background-color: #00A9BA;    
     border-radius: 20%;
     display: inline-block;
+    float: left;
+    margin-bottom: 30px;
 }
 
 .total{
@@ -134,6 +136,8 @@ body{
 
 .description{
 	float: left;
+	padding: 40px;
+	padding-top: 60px;
 }
 
 
