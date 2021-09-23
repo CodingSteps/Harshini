@@ -128,10 +128,12 @@ body{
     display: inline-block;
 }
 
-
-/*.description{
-	margin-left: 45%;
-	margin-top: 0px;
-	display: inline-block;
+.total{
+	float: left;
 }
+
+.description{
+	float: left;
+}
+
 
