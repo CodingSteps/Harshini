@@ -29,6 +29,10 @@ ul {
 	padding-top: 20px;
 }
 
+#logo:hover{
+	opacity: 0.6;
+}
+
 body{
 	margin: 0px;
 	font-family: 'Architects Daughter', cursive;
