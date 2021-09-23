@@ -82,7 +82,6 @@ body{
 	list-style-type: none;
 	clear: both;
 	width: 20%;
-	height: 290px;
 	background-color: #91F67A;
 	padding-left: 0px;
 	margin-top: 0px;
@@ -126,12 +125,11 @@ body{
     background-color: #00A9BA;    
     border-radius: 20%;
     display: inline-block;
-    float: left;
-    margin-bottom: 30px;
-}
+ }
 
 .total{
 	float: left;
+	margin-top: 50px;
 }
 
 .description{
