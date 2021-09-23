@@ -81,7 +81,6 @@ body{
 #side_bar{
 	list-style-type: none;
 	clear: both;
-	float: left;
 	width: 20%;
 	height: 290px;
 	background-color: #91F67A;
@@ -97,16 +96,29 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center; 
+
 }
 
 #board{
 	background-color: #ECADB5;
+	color: ghostwhite;
 }
 
 
 .side:hover{
 	background-color: #89ea70;
-}/*
+}
+
+.heading{
+	background-color: #ECADB5; 
+	width: 100%;
+	font-size: 80px;
+	float: left;
+	text-align: center;
+	color: ghostwhite;
+}
+
+/*
 
 .items{
 	height: 200px;
