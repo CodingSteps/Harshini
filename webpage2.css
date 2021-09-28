@@ -124,19 +124,47 @@ body{
 	color: ghostwhite;
 }
 
-
-.items{
-	height: 200px;
-    width: 200px;
-    background-color: #00A9BA;    
-    border-radius: 20%;
-    display: inline-block;
- }
-
 .total{
 	float: left;
 	margin-top: 50px;
 }
+
+
+.item1{
+	height: 200px;
+    width: 200px;
+    background-color: #00A9BA;    
+    border-radius: 20%;
+    float:left;
+ }
+
+.item2{
+    clear:left;	
+    height: 200px;
+    width: 200px;
+    background-color: #00A9BA;    
+    border-radius: 20%;
+    float:left;
+ }
+
+.item3{
+    clear:left;	
+    height: 200px;
+    width: 200px;
+    background-color: #00A9BA;    
+    border-radius: 20%;
+    float:left;
+ }
+
+.item4{
+    height: 200px;
+    width: 200px;
+    background-color: #00A9BA;    
+    border-radius: 20%;
+    float:left;
+ }
+
+
 
 .description{
 	float: left;
