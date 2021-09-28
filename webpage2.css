@@ -157,13 +157,20 @@ body{
  }
 
 
-
-
-
-.description{
+.description1{
 	float: left;
 	padding: 40px;
 	padding-top: 60px;
 }
 
+.description2{
+	float: left;
+	padding: 40px;
+	padding-top: 60px;
+}
 
+.description3{
+	float: left;
+	padding: 40px;
+	padding-top: 60px;
+}
