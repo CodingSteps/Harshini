@@ -129,48 +129,33 @@ body{
 	margin-top: 50px;
 }
 
-
-.item1{
-	height: 200px;
-    width: 200px;
-    background-color: #00A9BA;    
-    border-radius: 20%;
-    float:left;
- }
-
-.item2{
-    clear:left;	
+.item{
     height: 200px;
     width: 200px;
     background-color: #00A9BA;    
     border-radius: 20%;
+}
+
+.item1{
+     float:left;
+ }
+
+.item2{
+    clear:left;	
     float:left;
  }
 
 .item3{
     clear:left;	
-    height: 200px;
-    width: 200px;
-    background-color: #00A9BA;    
-    border-radius: 20%;
     float:left;
  }
 
 
-.description1{
+.description{
 	float: left;
 	padding: 40px;
 	padding-top: 60px;
 }
 
-.description2{
-	float: left;
-	padding: 40px;
-	padding-top: 60px;
-}
+br{clear:left;}
 
-.description3{
-	float: left;
-	padding: 40px;
-	padding-top: 60px;
-}
