@@ -53,6 +53,7 @@ body{
 
 #dropdown{
 	position: relative;
+	text-decoration: none;
 }
 
 #dropdown:hover #content{
@@ -107,7 +108,6 @@ body{
 
 #board{
 	background-color: #ECADB5;
-	text-decoration: none;
 	color: ghostwhite;
 }
 
