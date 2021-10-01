@@ -10,6 +10,7 @@
 	}
 
 	#box{
+		position: relative;
 		text-align: center;
 		margin: auto;
 		background-color: peachpuff;
@@ -22,7 +23,7 @@
 		text-align: center;
 	}
 
-	button{
+	#sum{
 		height: 40px;
 		background-color: lightyellow;
 		border-radius: 	5px;
@@ -38,6 +39,21 @@
 
 	}
 
+	#inside{
+		position: absolute;
+		top: 45px;
+		left: 37.2px;
+	}
+	
+	.button{
+		margin-top: 20px;
+		height: 40px;
+		background-color: lightyellow;
+		border-radius: 	5px;
+		margin-right: 10px;
+		background-color: antiquewhite;
+	}
+
 
 </style>
 
@@ -46,9 +62,40 @@
 	<h1>Calculate your age NOW!!!</h1>
 	<br>
 	<div id="box">
+		<div id="inside">
 			<label for="textbox">Your Age:</label>
 			<input type="text" id="textbox" placeholder="your age">
-			<button>Calculate!</button>
+			<button id="sum" onclick="calculate()">Calculate!</button>
+			<button class="button" onclick="upper()">UPERCASE</button>
+			<button class="button" onclick="lower()">lowercase</button>
+			<button class="button" onclick="calculate()">Caps</button>
+		</div>
 	</div>
+	<h1 id="answer"></h1>
+
+	<script type="text/javascript">
+		
+		function calculate() {
+			let age= document.getElementById('textbox').value;
+			age= age*(365*24*60*60);
+			document.getElementById("answer").innerHTML= `You are ${age} seconds old!😮`;
+		}
+
+		function upper() {
+			let age= document.getElementById('textbox').value;
+			age= age*(60*60);
+			document.getElementById("answer").innerHTML= `YOU ARE ${age} SECONDS OLD!😮`;
+		}
+
+		function lower() {
+			let age= document.getElementById('textbox').value;
+			age= age*(60*60);
+			document.getElementById("answer").innerHTML= `you are ${age} seconds old!😮`;
+		}
+
+		
+
+	</script>
+
 </body>
 </html>
