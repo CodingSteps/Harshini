@@ -19,3 +19,29 @@
 	75%{background-color: #FF9AA2; transform: translate(750px,0px) rotateX(90deg);}
 	100%{background-color: pink; transform: translate(1000px,0px) rotateX(120deg);}
 }
+
+#outline{
+	border: solid lightgray 10px;
+	height: 400px;
+	width: 400px;
+	margin: auto;
+}
+
+#box{
+	height: 100px;
+	width: 100px;
+	background: #FF9AA2;
+	font-size: 72px;
+	animation-name: box;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+@keyframes box{
+	0%{background-color: #FF9AA2; transform: translate(0px,400px);}
+	25%{background-color: #F7EBA5; transform: translate(400px,400px);}
+	50%{background-color: #B5EAD7; transform: translate(200px,400px);}
+	75%{background-color: #B5EAD7; transform: translate(0px,200px);}
+}
