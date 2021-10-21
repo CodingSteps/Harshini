@@ -33,15 +33,16 @@
 	background: #FF9AA2;
 	font-size: 72px;
 	animation-name: box;
-	animation-duration: 10s;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes box{
-	0%{background-color: #FF9AA2; transform: translate(0px,400px);}
-	25%{background-color: #F7EBA5; transform: translate(400px,400px);}
-	50%{background-color: #B5EAD7; transform: translate(200px,400px);}
-	75%{background-color: #B5EAD7; transform: translate(0px,200px);}
+	0%{background-color: #FF9AA2; transform: translate(0px,0px);}
+	25%{background-color: #FF9AA2; transform: translate(301px,0px);}
+	50%{background-color: #F7EBA5; transform: translate(301px,301px);}
+	75%{background-color: #B5EAD7; transform: translate(0px,301px);}
+	100%{background-color: #B5EAD7; transform: translate(0px,0px);}
 }
