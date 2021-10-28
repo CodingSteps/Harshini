@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hide/Show</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body style="background-color: lightgrey;">
+
+	<div id="box" style="height: 200px; width: 200px; background-color: lightgoldenrodyellow; font-size: 145px; border-radius: 20px; margin: auto;">‎ 💲</div>
+
+	<br>
+
+	<div style="text-align: center;">
+		<button id="s" style="margin: auto; color:lightpink; font-size: 30px;">Show/Hide</button>
+		<!--<button id="h" style="margin: auto; color:lightskyblue; font-size: 30px;">Hide</button>-->
+	</div>
+
+	<script>
+		
+		$(document).ready(function(){
+
+			$('#s').click(function(){
+				$('#box').toggle()
+			});
+		});
+
+	</script>
+
+</body>
+</html>
