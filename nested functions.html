@@ -31,7 +31,7 @@
 			alert("Javascript is 😃👍🤩👌😉");
 		}
 
-		setInterval(print , 5000);*/
+		setInterval(print , 5000);
 
 		let show=false
 
@@ -54,7 +54,20 @@
 				show=false;
 			}
 
-		});
+			$("h4").animate({fontSize:"30px"},1000)
+
+		});*/
+
+		function drawBox(a){
+			let b= $('<div>',{class:'box'});
+			$('body').append(b);
+
+			$('.box').css({'background-color':a ,'height':'50px', 'width':'50px', 'border-radius':'50%'});
+		};
+
+		drawBox('pink');
+
+
 
 	</script>
 

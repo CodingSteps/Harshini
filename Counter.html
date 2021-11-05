@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<title>Counter 📈</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Counter</h1>
+	<br>
+	<br>
+	<br>
+	<div style="text-align: center;">
+		<h2 id="num">0</h2>
+		<br>
+		<button id="d">Decrement</button>
+		<button id="r">Reset</button>
+		<button id="i">Increment</button>
+	</div>
+
+	<script type="text/javascript">
+		
+		let x=$("#num").html()
+
+		$("#d").click(function() {
+			
+			x= x-1
+			$("#num").html(x)
+			$("#num").css({"background-color":"red"})
+		})
+
+		$("#r").click(function() {
+			
+			x= 0
+			$("#num").html(x)
+
+		})
+
+		$("#i").click(function() {
+			
+			x= x+1
+			$("#num").html(x)
+			$("#num").css({"background-color":"green"})
+		})
+
+	</script>
+</body>
+</html>
