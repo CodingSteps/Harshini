@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Colours!</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<p>Pick a color, any color!</p>
+	<input type="color" id="color">
+	
+
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+
+			let bg;
+			
+			$('#color').change(function(){
+
+				bg = $('#color').val()
+			});
+
+			$('body').click(function(){
+				alert(bg)
+				$('body').css('background-color', bg)
+			});
+				
+
+		});
+
+			
+
+	
+
+
+
+	</script>
+</body>
+</html>
