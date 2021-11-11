@@ -31,4 +31,10 @@
 
 body{
 	background-color: lightskyblue;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: whitesmoke;
 }
