@@ -38,3 +38,12 @@ h1{
 	text-align: center;
 	color: whitesmoke;
 }
+
+@media(max-width: 992px){
+	.card{flex: 40%;}
+
+}
+
+@media(max-width: 768px){
+	.card{flex: 100%;}
+}
