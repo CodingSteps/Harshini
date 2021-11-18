@@ -42,13 +42,11 @@ body{
 }
 
 .card{
-	flex: 33%
+	flex: 30%
 	background-color: peachpuff;
-	height: 100px;
+	text-align: justify;
 }
 
-#card3{
-	flex: 33%;
+#card2{
 	background-color: burlywood;
-	height: 100px;
 }
