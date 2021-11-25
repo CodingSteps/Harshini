@@ -72,5 +72,15 @@ body{
 @media (max-width: 1214px) {
   body{
   	font-size: 20px;
-  }
-  }
+  	}
+
+  #title{
+  	font-size: 60px;
+  	}
+
+  #front{
+  	top: 20%;
+  	left: 15%;
+  }	
+
+}
