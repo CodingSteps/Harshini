@@ -69,7 +69,7 @@ body{
 	background-color: burlywood;
 }
 
-@media only screen and (max-width: 1214px) {
+@media (max-width: 1214px) {
   body{
   	font-size: 40px;
   }
