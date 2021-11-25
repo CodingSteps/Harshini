@@ -33,6 +33,9 @@ body{
 	font-size: 30px;
 }
 
+#bgimg{
+	background-image:"img/tommy.png";
+}
 
 #flexcontainer{
 	display: flex;
