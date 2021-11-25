@@ -1,9 +1,71 @@
 
 #logo{
-	font-size: 40px;
+	font-size: 35px;
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#logo:hover{
+	opacity: 70%;
+	cursor: pointer;
 }
 
 body{
     margin: 0px;
     font-family: "Abel", sans-serif;
+}
+
+#nav{
+	float: right;
+	margin-right: 30px;
+}
+
+#nav li{
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#nav li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#nav li:hover{
+	background-color: #D3D3D3;
+}
+
+
+#navigation{
+	padding: 5px;
+}
+
+#navBar{
+	background-color: white;
+	height: 82px;
+	width: 100%;
+}
+
+
+
+
+
+#bg{
+	background-image: url("https://codingsteps.github.io/WebProg/images/Grilled-Vegetable-Wrap.jpg");
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+
+#sub{
+	position: absolute;
+	font-size: 20px;
+	top: 570px;
+	left: 10px;
 }
