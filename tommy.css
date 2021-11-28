@@ -22,9 +22,9 @@ body{
 
 #front{
 	position: absolute;
+	width: 100%;
 	top: 100px;
-	left: 14%;
-	
+	text-align: center;
 }
 
 #sub{
