@@ -1,4 +1,8 @@
 
+*{
+	box-sizing: border-box;
+}
+
 #logo{
 	font-size: 35px;
 	float: left;
@@ -51,7 +55,7 @@ body{
 }
 
 
-
+     /* Slider */
 
 
 #bg{
@@ -69,3 +73,26 @@ body{
 	top: 570px;
 	left: 10px;
 }
+
+
+	/*Flexboxes*/
+
+#flexcontainer{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card{
+	flex: 50%;
+	margin: 10px;
+}
+
+#img1{
+	height: 500px;
+    margin: 20px;
+}
+
