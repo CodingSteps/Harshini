@@ -77,7 +77,7 @@ body{
 
 	/*Flexboxes*/
 
-#flexcontainer{
+.flexcontainer{
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -87,8 +87,8 @@ body{
 }
 
 .card{
-	flex: 30%;
-	margin: 10px;
+	flex: 0 0 30%;
+	margin: 20px;
 }
 
 #img1{
@@ -97,3 +97,38 @@ body{
     margin: 20px;
 }
 
+#txt1{
+	font-size: 18px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+.txt1h{
+	text-align: center;
+}
+
+hr {
+    width: 80%;
+    text-align: center;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#txt2{
+	text-align: left;
+}
+
+#txt2h{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#img2{
+	height: 520px;
+	width: 379px;
+    margin: 20px;
+}
+
+#txt2>h3{
+	letter-spacing: 3px;
+}
