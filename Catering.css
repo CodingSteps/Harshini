@@ -87,12 +87,13 @@ body{
 }
 
 .card{
-	flex: 50%;
+	flex: 30%;
 	margin: 10px;
 }
 
 #img1{
 	height: 500px;
+	width: 400px;
     margin: 20px;
 }
 
