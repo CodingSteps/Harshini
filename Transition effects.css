@@ -1,0 +1,44 @@
+
+.buttons{
+	width: 100px;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 5px;
+	font-size: 30px;
+	text-decoration: none;
+	position: absolute;
+	left: -150px;
+	transition: left 0.3s;
+
+}
+
+.buttons:hover{
+	left: 0px;
+}
+
+#one{
+	background-color: salmon;
+	color: white;
+	top: 220px;
+}
+
+#two{
+	background-color: turquoise;
+	color: white;
+	top: 275px;
+}
+
+#three{
+	background-color: orange;
+	color: white;
+	top: 331px;
+}
+
+#four{
+	background-color: limegreen;
+	color: white;
+	top: 387px;
+}
