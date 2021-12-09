@@ -54,7 +54,7 @@
 	width: 326px;
 	position: relative;
 	left: 0px;
-	top:  0px;
+	top: 0px;
 }
 
 #overlay:hover{
@@ -65,4 +65,16 @@
 	width: 326px;
 	height: 326px;
 	margin: auto;
+}
+
+#text{
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+    top: -96px;
+	color: transparent;
+}
+
+#text:hover{
+	color: white;
 }
