@@ -16,7 +16,7 @@
 }
 
 .buttons:hover{
-	left: -2px;
+	left: -4px;
 }
 
 #one{
@@ -41,4 +41,28 @@
 	background-color: limegreen;
 	color: white;
 	top: 387px;
+}
+
+#image{
+	position: absolute;
+	height: 326px;
+	display: block;
+}
+
+#overlay{
+	height: 326px;
+	width: 326px;
+	position: relative;
+	left: 0px;
+	top:  0px;
+}
+
+#overlay:hover{
+	background: linear-gradient(to bottom right, rgba(245, 40, 145, 0.58), rgba(48, 212, 246, 0.58));
+}
+
+#total{
+	width: 326px;
+	height: 326px;
+	margin: auto;
 }
