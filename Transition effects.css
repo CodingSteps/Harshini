@@ -44,17 +44,15 @@
 }
 
 #image{
-	position: absolute;
 	height: 326px;
-	display: block;
+	width: 100%;
 }
 
 #overlay{
-	height: 326px;
-	width: 326px;
-	position: relative;
+	position: absolute;
 	left: 0px;
 	top: 0px;
+	background-color: pink;
 }
 
 #overlay:hover{
@@ -66,6 +64,7 @@
 	width: 326px;
 	height: 326px;
 	margin: auto;
+	position: relative;
 }
 
 #text{
