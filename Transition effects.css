@@ -55,10 +55,10 @@
 	width: 100%;
 	height: 326px;
 	display: none;
-	background: linear-gradient(to bottom right, rgba(245, 40, 145, 0.58), rgba(48, 212, 246, 0.58));
+	background: rgba(0, 0, 0, 0.62);
 }
 
-#overlay:hover{
+#total:hover #overlay{
 	display: block;
 }
 
@@ -71,9 +71,10 @@
 
 #text{
 	text-align: center;
-	top: 250px;
+	top: 276px;
 	position: absolute;
 	font-size: 50px;
     color: white;
     width: 100%;
+    background-color: hotpink;
 }
