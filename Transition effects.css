@@ -59,6 +59,7 @@
 
 #overlay:hover{
 	background: linear-gradient(to bottom right, rgba(245, 40, 145, 0.58), rgba(48, 212, 246, 0.58));
+	color: white;
 }
 
 #total{
@@ -69,12 +70,7 @@
 
 #text{
 	text-align: center;
-	position: relative;
+	position: absolute;
 	font-size: 50px;
-    top: -96px;
-	color: transparent;
-}
-
-#text:hover{
-	color: white;
+    color: transparent;
 }
