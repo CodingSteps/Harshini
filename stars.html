@@ -45,7 +45,7 @@
 			}
 		}
 
-		patterns("?",5);*/
+		patterns("?",5);
 
 		function main(){
 			let start = prompt("Pick a start value.");
@@ -56,11 +56,61 @@
 				end = prompt("Re-enter. The end value must be greater than the start value.");
 			}
 
+			let sym = prompt("Pick a character. For example, type *.")
+
+			makeTriangle(start, end, sym);
+
 
 		}
 
-		main();
+		function makeTriangle(start, end, sym){
 
+			let startpattern=1;
+
+			for(let i =1; i<=end; i++){
+				   startpattern++;
+    			for(let j=1; j<=i; j++){
+
+        			if(i<start){
+        				document.writeln("*");
+        			}
+
+        			else{
+        					if (startpattern%2==0){
+        						document.writeln(sym);
+        					}
+
+        					else{
+        						document.writeln(i);
+
+        					}
+        			}
+    			}
+    			document.writeln("<br>");
+			}
+			
+		}
+
+		main();*/
+
+		let start = prompt("Pick a start value.");
+		let end = prompt("Pick an end value.");
+		let add = prompt("Pick a value to add.");
+		let one = start;
+
+		while(start>=end||isNaN(start)||isNaN(end)){
+			start = prompt("Re-enter. The start value must be lesser than the end value.");
+			end = prompt("Re-enter. The end value must be greater than the start value.");
+		}
+
+		for(let i = start; i<= end; i++){
+    			for(let j=1; j<=10; j++){
+    				document.writeln(one);
+    				one=Number(one)+Number(add);
+    			}
+    			document.writeln("<br>");
+			}
+			
 	</script>
 
 </body>
