@@ -3,13 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>Javascript Problems</title>
 </head>
 <body>
 
+	<p id="para"></p>
+
 	<script type="text/javascript">
 		
-		let input= prompt("Enter an Opperator...");
+		/*let input= prompt("Enter an Opperator...");
 
 		while(input!=="*" && input!=="+" && input!=="-" && input!=="/"){
 			input= prompt("Renter an Opperator...");
@@ -46,6 +49,21 @@
 					let answer= num1 / num2;
 					alert(num1+num2+"="+answer)
 			}
+	$(document).ready(function(){
+
+		let num = prompt("Type any number.");
+		let sum;
+
+		for(let i=1; i<=10; i++){
+    		sum= i*num;
+    		let answer= i+"x"+num+"="+sum
+    		$("#para").append(answer);
+    		let b= $("<br>");
+    		$("#para").append(b);
+    		console.log(answer);
+		}
+
+	});*/
 
 	</script>
 

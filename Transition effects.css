@@ -1,0 +1,80 @@
+
+.buttons{
+	width: 100px;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 5px;
+	font-size: 30px;
+	text-decoration: none;
+	position: absolute;
+	left: -150px;
+	transition: left 0.3s;
+
+}
+
+.buttons:hover{
+	left: -4px;
+}
+
+#one{
+	background-color: salmon;
+	color: white;
+	top: 220px;
+}
+
+#two{
+	background-color: turquoise;
+	color: white;
+	top: 275px;
+}
+
+#three{
+	background-color: orange;
+	color: white;
+	top: 331px;
+}
+
+#four{
+	background-color: limegreen;
+	color: white;
+	top: 387px;
+}
+
+#image{
+	height: 326px;
+	width: 100%;
+}
+
+#overlay{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 326px;
+	display: none;
+	background: rgba(0, 0, 0, 0.62);
+}
+
+#total:hover #overlay{
+	display: block;
+}
+
+#total{
+	width: 326px;
+	height: 326px;
+	margin: auto;
+	position: relative;
+}
+
+#text{
+	text-align: center;
+	top: 276px;
+	position: absolute;
+	font-size: 50px;
+    color: white;
+    width: 100%;
+    background-color: hotpink;
+}

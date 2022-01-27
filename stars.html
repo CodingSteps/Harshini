@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stars</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		/*let star="*";
+
+		for(let i =1; i<=3; i++){
+    		for(let j=1; j<=i; j++){
+        		document.writeln(star);
+    		}
+    		document.writeln("<br>");
+		}
+
+		for(let i = 1; i<=3;i++){
+			for(let j = 1; j<=4; j++){
+				document.writeln(i*j);
+			}
+			document.writeln("<br>");
+		}
+
+		function patterns(start,end,length){
+			for(let i = start; i<=end;i++){
+				for(let j =start; j<=length; j++){
+					document.writeln(i*j);
+				}
+				document.writeln("<br>");
+			}
+		}
+
+		patterns(1,8,10);
+
+		function patterns(sym,num){
+			for(let i =1; i<=num;i++){
+				for(let j =1; j<=num; j++){
+					document.writeln(sym);
+				}
+				document.writeln("<br>");
+			}
+		}
+
+		patterns("?",5);
+
+		function main(){
+			let start = prompt("Pick a start value.");
+			let end = prompt("Pick an end value.");
+
+			while(start>=end||isNaN(start)||isNaN(end)){
+				start = prompt("Re-enter. The start value must be lesser than the end value.");
+				end = prompt("Re-enter. The end value must be greater than the start value.");
+			}
+
+			let sym = prompt("Pick a character. For example, type *.")
+
+			makeTriangle(start, end, sym);
+
+
+		}
+
+		function makeTriangle(start, end, sym){
+
+			let startpattern=1;
+
+			for(let i =1; i<=end; i++){
+				   startpattern++;
+    			for(let j=1; j<=i; j++){
+
+        			if(i<start){
+        				document.writeln("*");
+        			}
+
+        			else{
+        					if (startpattern%2==0){
+        						document.writeln(sym);
+        					}
+
+        					else{
+        						document.writeln(i);
+
+        					}
+        			}
+    			}
+    			document.writeln("<br>");
+			}
+			
+		}
+
+		main();*/
+
+		let start = prompt("Pick a start value.");
+		let end = prompt("Pick an end value.");
+		let add = prompt("Pick a value to add.");
+		let one = start;
+
+		while(start>=end||isNaN(start)||isNaN(end)){
+			start = prompt("Re-enter. The start value must be lesser than the end value.");
+			end = prompt("Re-enter. The end value must be greater than the start value.");
+		}
+
+		for(let i = start; i<= end; i++){
+    			for(let j=1; j<=10; j++){
+    				document.writeln(one);
+    				one=Number(one)+Number(add);
+    			}
+    			document.writeln("<br>");
+			}
+			
+	</script>
+
+</body>
+</html>

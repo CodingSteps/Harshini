@@ -1,4 +1,8 @@
 
+*{
+	box-sizing: border-box;
+}
+
 #logo{
 	font-size: 35px;
 	float: left;
@@ -51,7 +55,7 @@ body{
 }
 
 
-
+     /* Slider */
 
 
 #bg{
@@ -68,4 +72,70 @@ body{
 	font-size: 20px;
 	top: 570px;
 	left: 10px;
+}
+
+
+	/*Flexboxes*/
+
+.flexcontainer{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card{
+	flex: 0 0 30%;
+	margin: 20px;
+}
+
+#img1{
+	height: 500px;
+	width: 400px;
+    margin: 20px;
+}
+
+#txt1{
+	font-size: 18px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+.txt1h{
+	text-align: center;
+}
+
+hr {
+    width: 80%;
+    text-align: center;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#txt2{
+	text-align: left;
+}
+
+#txt2h{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#img2{
+	height: 520px;
+	width: 379px;
+    margin: 20px;
+}
+
+#txt2>h3{
+	letter-spacing: 3px;
+}
+
+#details{
+	width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }

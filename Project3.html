@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project 3</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		function main(){
+			let word= prompt("Enter a word!");
+			let count= Number(prompt("How many times do you want the word to display?"));
+			machine(word,count);
+		}
+
+		function machine(string,times){
+				for(let i=1; i<=times; i++){
+					if(i%2 === 0){
+						document.writeln(string);
+					}
+					else{
+						let answer= reverse(string);
+						document.writeln(answer);
+					}
+				}
+			}
+
+		function reverse(input){
+			let str_len= input.length-1;
+			let new_str= "";
+    		
+    		for (let i= str_len; i>=0; i--){
+        		
+        		new_str= new_str+input[i];
+    		}
+
+    		return new_str;
+    	}
+
+
+    	main();
+
+
+	</script>
+
+</body>
+</html>
